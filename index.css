@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=vietnamese");
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+#app {
+	margin: 0 300px;
+}
+
+h1 {
+	text-align: center;
+	border: solid 1px red;
+	padding: 20px;
+}
+
+/* Dùng thẻ */
+h2 {
+	color: red;
+}
+
+/* dùng class */
+h2.tieu-de-1 {
+	color: pink;
+}
+
+/* dùng id */
+#id1 {
+}
+.main-content {
+	display: flex;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0;
+}
+
+ul li {
+	margin: 10px 20px;
+	list-style: none;
+}
+
+li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.side-menu {
+	flex-direction: column;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px 80px;
+}
